@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+.content{
+        position: relative;
+        width: 100%;
+}
+.arrow{
+    position: absolute;
+    top: 35%;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10%;
+}
+.next{
+    right: 10px;
+}
+.prev{
+    left: 10px;
+}
+.Caption{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: rgba(255,255,255,0.2);
+    padding: 10px;
+}
+.slide{
+    display: none;
+}
+
